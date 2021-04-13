@@ -30,7 +30,7 @@ class HousesService {
     if (!data) {
       throw new BadRequest("Invalid Id")
     }
-    return "Successfully Deleted"
+    return "ESCROW HAS CLOSED!"
   }
 
 

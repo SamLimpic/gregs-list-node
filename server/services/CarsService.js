@@ -30,7 +30,7 @@ class CarsService {
     if (!data) {
       throw new BadRequest("Invalid Id")
     }
-    return "Successfully Deleted"
+    return "THIS CAR HAS BEEN SOLD!"
   }
 
 

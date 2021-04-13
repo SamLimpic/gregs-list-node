@@ -7,6 +7,7 @@ const Job = new Schema(
     jobTitle: { type: String, required: true },
     hours: { type: Number, required: true },
     rate: { type: Number, required: true },
+    imgUrl: { type: String, required: true, default: '//placehold.it/300x300' },
     description: { type: String, minLength: 3 }
   },
   { timestamps: true, toJSON: { virtuals: true } }

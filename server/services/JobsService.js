@@ -30,7 +30,7 @@ class JobsService {
     if (!data) {
       throw new BadRequest("Invalid Id")
     }
-    return "Successfully Deleted"
+    return "THIS POSITION HAS BEEN FILLED!"
   }
 
 

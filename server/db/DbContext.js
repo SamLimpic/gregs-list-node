@@ -2,7 +2,7 @@
 import mongoose from "mongoose"
 import CarSchema from "../models/Car"
 import HouseSchema from "../models/House"
-import JobSchema from "../models/Car"
+import JobSchema from "../models/Job"
 
 
 // this is where models get registered and access from the db
